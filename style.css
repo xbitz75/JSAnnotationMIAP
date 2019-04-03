@@ -1,0 +1,49 @@
+
+/* Style of highlighted elements */
+.highlight {
+    border-color: #00ff40;
+    border-style: double;
+    border-width: thick;
+}
+
+/* Style for Modal positioning and background */
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 15%; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Style of Modal Context */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 2vw;
+    border: black;
+    width: 500px;
+}
+
+.closeBtn {
+    float: right;
+    color: rgba(0,0,0,0.65);
+}
+
+.closeBtn:hover {
+    color: rgba(0, 0, 0, 1);
+    cursor: default;
+}
+
+/* Style of Notes */
+.note {
+    font-size: 20pt;
+}
+
+/* Style of NoteFlag */
+.noteFlag {
+    position: absolute;
+}
